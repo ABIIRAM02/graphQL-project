@@ -26,7 +26,7 @@ function App() {
       ? dispatch({ type: ADD_POSTDATA, payload: { title, description } })
       : alert("enter something basted");
 
-    // await refetch();
+    await refetch();
     fetchData();
   };
 
